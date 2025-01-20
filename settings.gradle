@@ -1,0 +1,1 @@
+include ':app', ':qcasm-plugin-gradle'
