@@ -22,21 +22,21 @@ dependencies {
 }
 
 // 将该插件上传到本地Maven库
-group = 'com.qcsdk.plugin' // 组名
-version = "1.0.1"
+group = 'io.github.bingoliallen.qcasm-plugin' // 组名
+version = "1.0.0"
 
-//uploadArchives {
-//    repositories.mavenDeployer {
-//        //本地仓库路径，以放到项目根目录下的 repos 的文件夹为例
-//        repository(url: uri('../repos'))
-//        //groupId ，自行定义
-//        pom.groupId = 'com.qcsdk.plugin'
-//        //artifactId
-//        pom.artifactId = 'qcasm-plugin-gradle'
-//        //插件版本号
-//        pom.version = '1.0.1'
-//    }
-//}
+uploadArchives {
+    repositories.mavenDeployer {
+        //本地仓库路径，以放到项目根目录下的 repos 的文件夹为例
+        repository(url: uri('../repos'))
+        //groupId ，自行定义
+        pom.groupId = 'com.qcsdk.plugin'
+        //artifactId
+        pom.artifactId = 'qcasm-plugin-gradle'
+        //插件版本号
+        pom.version = '1.0.0'
+    }
+}
 
 buildscript {
     repositories {
@@ -62,7 +62,7 @@ pluginBundle {
 gradlePlugin {
     plugins {
         greetingsPlugin {
-            id = 'com.qcsdk.plugin'   // 插件的id，到时候apply的插件id
+            id = 'io.github.bingoliallen.qcasm-plugin'   // 插件的id，到时候apply的插件id
             displayName = 'qcasm plugin'
             description = 'Gradle plugin to qcasm'
             implementationClass = 'com.qcplay.qcsdk.QCTransformPlugin'
