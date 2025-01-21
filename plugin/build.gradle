@@ -62,7 +62,7 @@ pluginBundle {
 gradlePlugin {
     plugins {
         greetingsPlugin {
-            id = 'io.github.bingoliallen.qcasm-plugin'   // 插件的id，到时候apply的插件id
+            id = 'io.github.bingoliallen.qcasm-plugin-gradle'   // 插件的id，到时候apply的插件id
             displayName = 'qcasm plugin'
             description = 'Gradle plugin to qcasm'
             implementationClass = 'com.qcplay.qcsdk.QCTransformPlugin'

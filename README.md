@@ -24,7 +24,7 @@ buildscript {
   }
 
   dependencies {
-    classpath "io.github.bingoliallen.qcasm-plugin:plugin:1.0.0"
+    classpath "io.github.bingoliallen.qcasm-plugin-gradle:plugin:1.0.0"
   }
 
 }
