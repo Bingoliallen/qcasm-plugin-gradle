@@ -22,7 +22,7 @@ dependencies {
 }
 
 // 将该插件上传到本地Maven库
-group = 'io.github.bingoliallen' // 组名
+group = 'io.github.bingoliallen.qcasm-plugin-gradle' // 组名
 version = "1.0.0"
 
 uploadArchives {
