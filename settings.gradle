@@ -1,1 +1,1 @@
-include ':app', ':qcasm-plugin-gradle'
+include ':app', ':plugin'
